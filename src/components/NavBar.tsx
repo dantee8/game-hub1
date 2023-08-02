@@ -1,9 +1,10 @@
+import { HStack, Image } from "@chakra-ui/react";
+import logo from "../assets/logo.webp";
 function NavBar() {
   return (
-    <div className="nav">
-      <h1>Logo</h1>
-      <h2>Search</h2>
-    </div>
+    <HStack>
+      <Image src={logo} boxSize={"6rem"} />
+    </HStack>
   );
 }
 
